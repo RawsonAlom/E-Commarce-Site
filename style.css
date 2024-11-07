@@ -1,0 +1,166 @@
+/*-Section-*/
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(36, 32, 45);
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.section1{
+    background-color:white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.logo{
+    margin-left: 89px;
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*--*/
+
+.searchbox{
+    display: flex;
+    right: 89px;
+    margin-top: 50px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox .search{
+    background-color: #fff;
+    display: flex;
+    width: 170px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    border: 1px solid rgba(167, 158, 245, 0.1);
+
+}
+.searchbox .search i{
+    padding: 11px;
+    margin-left: 10px;
+}
+.searchbox .search input{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+/*--*/
+
+.section2{
+    width: 100%;
+    height: 640px;
+    display: flex;
+}
+.section2 .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 310px;
+    margin-left: 10.5%;
+    margin-top: 113px;
+    position: absolute;
+}
+.section2 .img1 img{
+    width: 473px;
+}
+.section2 .button1{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 477px;
+    right: 7%;
+    margin-top: 150px;
+    line-height: 6px;
+    color: #2e2f45;
+}
+.section2 .button1 .h1{
+    font-size: 64px;
+    font-family: serif;
+    letter-spacing:31px;
+}
+.section2 .button1 .h2{
+    font-size: 64px;
+    font-family: serif;
+    letter-spacing: 3.5px;
+}
+
+.section2 .button1 .h1 .span1{
+    color: #626ae5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section2 .button1 .h2 .span2{
+    color: #626ae5;
+    font-family: sans-serif;
+}
+.section2 .button1 button{
+    color: white;
+    background-color: #2e2f45;
+    border: none;
+    outline: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: serif;
+    font-size: 17px;
+    margin-top: -9px;
+    transition: .4s;
+}
+.section2 .button1 button:hover{
+    background-color: #626ae5;
+}
+.icons{
+    width: 48px;
+    height: 234px;
+    top: 50%;
+    left: 30px;
+    position: fixed;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: translateY(-50%);
+    
+}
+.icons a{
+    font-size: 15px;
+    display:flow-root;
+    color: #53545d;
+    padding: 16.5px ;
+}
+.icons .yt:hover{
+    color: red;
+}
+.icons .inst:hover{
+    color: rgb(255, 0, 191);
+}
+.icons .tw:hover{
+    color: rgb(0, 187, 255);
+}
+.icons .fb:hover{
+    color: rgb(28, 85, 229);
+}
+/*-Section-*/
